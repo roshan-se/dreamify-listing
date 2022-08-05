@@ -48,10 +48,14 @@ const categories = [
 
 const FeaturedCategories = () => {
 	return (
-		<div className="container my-6 md:my-16">
-			<h2 className="text-4xl text-secondary text-center">
+		<div className="container my-6 md:my-24">
+			<h3 className="text-5xl md:text-9xl text-[#e7e7ed] text-center font-black opacity-40 z-[-1]">
+				Featured
+			</h3>
+			<h2 className="relative text-4xl text-secondary text-center font-semibold mb-2 -mt-4 md:-mt-14">
 				Featured Categories
 			</h2>
+
 			<p className="text-center">
 				Discover New York’s best things to do, restaurants, theatre, nightlife
 				and more

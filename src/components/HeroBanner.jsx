@@ -21,7 +21,7 @@ const HeroBanner = () => {
 						<input
 							type="text"
 							placeholder="What are you looking for?"
-							className="w-full rounded-full h-full px-4 py-2 border-r focus:outline-none"
+							className="w-full h-full px-4 py-2 border-r rounded-full md:rounded-none focus:outline-none"
 						/>
 					</div>
 					<div className="col-span-12 md:col-span-3">
