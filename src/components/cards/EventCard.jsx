@@ -17,7 +17,7 @@ const EventCard = () => {
 					{/* Item Image Placeholder */}
 					<div className="absolute top-0 bottom-0 left-0 right-0 object-cover">
 						<img
-							src="https://wilcity.com/wp-content/uploads/2018/05/Singapore_1_a-800x520.jpg"
+							src="./food-tour.jpg"
 							alt=""
 							className="w-full h-full group-hover:scale-110 transition-transform ease-in-out duration-300"
 						/>
@@ -36,13 +36,13 @@ const EventCard = () => {
 					</div>
 					<div className="relative">
 						<h3 className="relative text-base font-semibold mb-1">
-							Secret Food Tours Bangkok
+							Secret Food Tours Pokhara
 						</h3>
 						<p className="text-xs text-neutral truncate mb-1">
-							08/08/2018 - 06/13/2019
+							08/08/2025 - 06/13/2026
 						</p>
 						<p className="text-xs text-neutral truncate mb-1">
-							Bangkok, Thailand
+							Pokhara, Nepal
 						</p>
 						<p className="text-xs text-neutral truncate mb-1">
 							24 people interested

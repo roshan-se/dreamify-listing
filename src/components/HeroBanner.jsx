@@ -1,7 +1,7 @@
 import React from 'react';
 
 const style = {
-	bannerHeight: `h-[600px] flex flex-col items-center justify-center bg-center bg-no-repeat bg-cover bg-[url('https://livewp.site/wp/md/listingeasy/wp-content/uploads/sites/4/2017/10/home_01.jpg?id=11691')]`,
+	bannerHeight: `h-[600px] flex flex-col items-center justify-center bg-center bg-no-repeat bg-cover bg-[url('./hero-banner-listing.jpg')]`,
 };
 
 const HeroBanner = () => {
@@ -31,6 +31,11 @@ const HeroBanner = () => {
 							className="w-full rounded-full bg-white px-4 py-2 focus:outline-none"
 						>
 							<option value="">Add Category</option>
+							<option value="">Hotel</option>
+							<option value="">Restaurant</option>
+							<option value="">Food & Drink</option>
+							<option value="">Shops</option>
+							<option value="">Parking</option>
 						</select>
 					</div>
 					<div className="col-span-12 md:col-span-3 py-2 md:py-1.5 mr-1.5">

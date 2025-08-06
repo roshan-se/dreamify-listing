@@ -27,8 +27,8 @@ const ItemCard = () => {
 					{/* Item Image Placeholder */}
 					<div className="absolute top-0 bottom-0 left-0 right-0 object-cover">
 						<img
-							src="https://wilcity.com/wp-content/uploads/2019/09/wct007-1200x800.jpg"
-							alt=""
+							src="./hotel-barahi.jpg"
+							alt="Hotel Barahi Frontyard"
 							className="w-full h-full group-hover:scale-110 transition-transform ease-in-out duration-300"
 						/>
 					</div>
@@ -46,8 +46,8 @@ const ItemCard = () => {
 					<div className="relative logo-overlay z-10 -mt-6 w-[100px] h-12">
 						<div className="absolute block w-12 h-12 top-2.5 left-4 rounded-full overflow-hidden ">
 							<img
-								src="https://wilcity.com/wp-content/uploads/2020/05/Chicago_1_logo_.jpg"
-								alt=""
+								src="./barahi-logo.png"
+								alt="Hotel Barahi Logo"
 							/>
 						</div>
 					</div>

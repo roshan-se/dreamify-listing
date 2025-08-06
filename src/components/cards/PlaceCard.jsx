@@ -6,7 +6,7 @@ const PlaceCard = () => {
 		<div className="relative pt-[144%] overflow-hidden group">
 			<div className="absolute top-0 left-0 bottom-0 right-0">
 				<img
-					src="https://wilcity.com/wp-content/uploads/2020/07/wct013-800x1200.jpg"
+					src="./pokhara.jpg"
 					alt=""
 					className="w-full h-full object-cover group-hover:scale-105 transition-transform ease-in-out duration-300"
 				/>
@@ -20,7 +20,7 @@ const PlaceCard = () => {
 			</div>
 			<div className="absolute bottom-0 z-10 w-full flex flex-col p-5 transition-transform ease-in-out duration-300 lg:translate-y-20 group-hover:translate-y-0">
 				<h3 className="text-center text-white text-3xl font-semibold mb-8">
-					London
+					Pokhara
 				</h3>
 				<button className="bg-primary text-base font-semibold text-white py-3.5 px-5">
 					Discover

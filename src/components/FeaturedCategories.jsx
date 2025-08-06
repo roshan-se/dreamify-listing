@@ -1,48 +1,48 @@
 import React from 'react';
 import FeaturedCard from './cards/FeaturedCard';
+import featHotel from '../assets/feat-hotel.jpg';
+import featFood from '../assets/feat-food.jpg';
+import featShop from '../assets/feat-shop.jpg';
+import featEntertainment from '../assets/feat-entertainment.jpg';
+import featParking from '../assets/feat-parking.jpg';
+import featOutdoor from '../assets/feat-outdoor.jpg';
 
 const categories = [
 	{
 		id: 1,
 		name: 'Hotel & Hostel',
 		locations: '4',
-		featuredImage:
-			'https://livewp.site/wp/md/listingeasy/wp-content/uploads/sites/4/2017/10/category_hotel_hostel_bg-450x600.jpg',
+		featuredImage: featHotel,
 	},
 	{
 		id: 2,
 		name: 'Food & Drink',
 		locations: '6',
-		featuredImage:
-			'https://livewp.site/wp/md/listingeasy/wp-content/uploads/sites/4/2017/10/category_food_drink_bg-450x675.jpg',
+		featuredImage: featFood
 	},
 	{
 		id: 3,
 		name: 'Shop & Store',
 		locations: '2',
-		featuredImage:
-			'https://livewp.site/wp/md/listingeasy/wp-content/uploads/sites/4/2017/10/category_shop_store_bg-450x300.jpg',
+		featuredImage: featShop,
 	},
 	{
 		id: 4,
 		name: 'Entertainment',
 		locations: '1',
-		featuredImage:
-			'https://livewp.site/wp/md/listingeasy/wp-content/uploads/sites/4/2017/10/category_entertainment-450x300.jpg',
+		featuredImage: featEntertainment,
 	},
 	{
 		id: 5,
 		name: 'Parking',
 		locations: '1',
-		featuredImage:
-			'https://livewp.site/wp/md/listingeasy/wp-content/uploads/sites/4/2017/10/category_parking-450x300.jpg',
+		featuredImage: featParking,
 	},
 	{
 		id: 6,
 		name: 'Outdoor',
 		locations: '2',
-		featuredImage:
-			'https://livewp.site/wp/md/listingeasy/wp-content/uploads/sites/4/2017/10/category_outdoor-450x300.jpg',
+		featuredImage: featOutdoor,
 	},
 ];
 
