@@ -1,7 +1,7 @@
 import React from 'react';
 
 const style = {
-	bannerHeight: `h-[600px] flex flex-col items-center justify-center bg-center bg-no-repeat bg-cover bg-[url('./hero-banner-listing.jpg')]`,
+	bannerHeight: `h-[600px] flex flex-col items-center justify-center bg-center bg-no-repeat bg-cover bg-[url('/hero-banner-listing.jpg')]`,
 };
 
 const HeroBanner = () => {
